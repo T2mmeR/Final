@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MidTermApplication</string>
+    <string name="enter_your_email">Enter Your Email</string>
+    <string name="enter_your_password">Enter Your Password</string>
+    <string name="don_t_have_an_accaunt">Don\'t have an accaunt?</string>
+    <string name="login">Login</string>
+    <string name="game_name">Game name</string>
+</resources>

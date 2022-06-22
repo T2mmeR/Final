@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/gameImage"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/reg"
+        tools:ignore="ImageContrastCheck"
+        android:contentDescription="TODO" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="#E7E7E7 "
+        android:orientation="vertical"
+        android:paddingBottom="40dp">
+
+
+        <TextView
+            android:id="@+id/gameNameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="@string/game_name"
+            android:textColor="@android:color/black"
+            android:textColorHint="#757575"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/gameReleaseTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Game Release Date"
+            android:textColor="@android:color/black"
+            android:textColorHint="#757575"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/gameRatingTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="30dp"
+            android:hint="Rating"
+            android:textColor="@android:color/black"
+            android:textColorHint="#757575"
+            android:textSize="20dp" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
